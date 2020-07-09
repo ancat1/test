@@ -11,7 +11,7 @@ public enum 健診機関統一判定 implements 健診判定{
 			return this.lenient ? this.judgmentResult : D.judgmentResult;
 		}
 	},
-	D2("D2", "受精検"){
+	D2("D2", "受診中"){
 		@Override
 		public String getJudgmentResult() {
 			return this.lenient ? this.judgmentResult : D.judgmentResult;
